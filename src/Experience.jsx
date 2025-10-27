@@ -90,7 +90,7 @@ const Experience = ({ section }) => {
         scale={0.3}
         // rotation={[degToRad(15), degToRad(40), degToRad(0)]}
         position={[0, -0.1, 0]}
-        src="/models/ferrari_sf90_stradale.glb"
+        src="/models/ferrari_sf90_stradale.compressed.glb"
       />
       <group>
         <Environment rotation-y={Math.PI} preset="warehouse" blur />
