@@ -48,7 +48,7 @@ const UI = ({ section, onSectionChange }) => {
   }, []);
 
   return (
-    <main className="fixed inset-0 flex flex-col p-4 pointer-events-none">
+    <main className="absolute inset-0 flex flex-col p-4   pointer-events-none">
       <div className="flex items-center justify-between flex-1 text-white">
         {/* ⬅️ Left arrow */}
         <button

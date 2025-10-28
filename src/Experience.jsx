@@ -72,19 +72,20 @@ const Experience = ({ section }) => {
   }, [section]);
   return (
     <>
+      <color args={["black"]} attach={"background"} />
       <CameraControls
         ref={controls}
-        // mouseButtons={{
-        //   middle: 0,
-        //   left: 0,
-        //   right: 0,
-        //   wheel: 0,
-        // }}
-        // touches={{
-        //   one: 0,
-        //   two: 0,
-        //   three: 0,
-        // }}
+        mouseButtons={{
+          middle: 0,
+          left: 0,
+          right: 0,
+          wheel: 0,
+        }}
+        touches={{
+          one: 0,
+          two: 0,
+          three: 0,
+        }}
       />
       <Gltf
         scale={0.3}
